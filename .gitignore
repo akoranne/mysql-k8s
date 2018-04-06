@@ -1,3 +1,3 @@
-mysql/
 camunda-sql-scripts*
-k8s-*
+k8s/
+mysql/
