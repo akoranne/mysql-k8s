@@ -120,17 +120,22 @@
 	mysql>
 	```
 
-0. Run Camunda BPM
-	- 
+0. Camunda BPM
+	- update the secrets file with mysql instance details.
+	- run Camunda BPM on MiniKube.
 
+0. See logs
 
+	```
+	$ docker-compose logs
+	```
 
 0. Cleanup
-```
-$ docker-compose stop
-```
+	```
+	$ docker-compose stop
+	```
 
-0. Get rid of all images
-```
-$ docker system prune -a
-```
+0. Prune all images
+	```
+	$ docker system prune -a
+	```
